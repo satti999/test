@@ -8,6 +8,7 @@ import (
 	"gorm.io/gorm"
 )
 
+// sada
 type Config struct {
 	Host     string
 	Port     string
