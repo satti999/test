@@ -34,7 +34,7 @@ func main() {
 		DBName:   os.Getenv("DB_NAME"),
 	}
 	db, err := database.NewConnection(config)
-
+/////
 	if err != nil {
 		log.Fatal("could not load the data base")
 	}
